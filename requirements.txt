@@ -1,0 +1,4 @@
+mfd-base-tool>=2.7.0
+mfd-common-libs>=1.11.0
+mfd-connect >= 7.12.0
+mfd-typing>=1.23.0
