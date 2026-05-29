@@ -7,8 +7,7 @@ import logging
 from pathlib import Path
 from typing import Optional, Union, List
 from mfd_common_libs import add_logging_level, log_levels, os_supported
-from mfd_connect import Connection, LocalConnection
-from mfd_connect.util import rpc_copy_utils
+from mfd_connect import Connection
 from mfd_base_tool import ToolTemplate
 from mfd_typing import OSName, OSBitness
 from .exceptions import DevconNotAvailable, DevconException, DevconExecutionError
